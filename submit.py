@@ -44,3 +44,4 @@ if __name__ == '__main__':
     net = UNet(3, 1).cuda()
     net.load_state_dict(torch.load('MODEL.pth'))
     submit(net)
+    sk-cffeLGWjgHac3JbwEp9FEJZ8Esq6OMkU6ruDnQ5HmYHNVnwK
